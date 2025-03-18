@@ -46,8 +46,8 @@ class WhatsAppMessages extends Command
                 // $twilio = new Client($SID, $Token);
 
                 try {
-                    $sid    = "ACb08351fd355999c1cc928fa7c499d9f5";
-                    $token  = "b6c89442a8a190f1b043b8514cc2c28c";
+                    $sid    = "";
+                    $token  = ""; //use your own sid and tokens
                     $twilio = new Client($sid, $token);
 
                     $message = $twilio->messages->create(

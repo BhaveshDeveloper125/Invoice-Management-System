@@ -54,8 +54,8 @@ class Add_Invoice_controlle extends Controller
                 $add_invoice->phone = $phone;
 
 
-                $sid    = "ACb08351fd355999c1cc928fa7c499d9f5";
-                $token  = "b6c89442a8a190f1b043b8514cc2c28c";
+                $sid    = "";
+                $token  = ""; //use your own sid and tokens
                 $twilio = new Client($sid, $token);
 
                 // try {
@@ -122,8 +122,8 @@ class Add_Invoice_controlle extends Controller
             $giftCN->save();
 
 
-            $sid    = "ACb08351fd355999c1cc928fa7c499d9f5";
-            $token  = "b6c89442a8a190f1b043b8514cc2c28c";
+            $sid    = "";
+            $token  = ""; //use your own sid and tokens
             $twilio = new Client($sid, $token);
             // if ($getEmailPhone !== null) {
             //     // dd($getEmailPhone);
