@@ -1,0 +1,22 @@
+Ref:https://github.com/barryvdh/laravel-dompdf
+
+
+
+1.Create a Laravel Project.
+
+2.Install PDF DOM Package using the cmd.
+
+cmd:Composer require barryvdh/laravel-dompdf
+
+
+3.Find the DOM PDF file in the config folder , If he DOM PDF file is not available in the config folder then use the following cmd 
+cmd:php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
+
+4.Create a controller and a route to that controller 
+cmd:php artisan make:controller controller_name
+
+5.Copy the code from the ref website under the title Using 
+
+6.Crate a view to show the data in table
+
+7.in the loadview function args add the array that contains the data to show in the PDF 
